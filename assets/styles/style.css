@@ -16,6 +16,7 @@
 
 body {
   font-family: 'ARS Maquette Pro',serif;
+  padding-top: 48px;
 }
 
 nav {
@@ -66,4 +67,12 @@ nav {
   font-size: 1.3em;
   text-align: center;
   line-height: 48px;
+}
+
+.nav-alert {
+  height: 30px;
+  width: 100vw;
+  background-color: #ffdc33;
+  padding-left: 116px;
+  line-height: 30px;
 }
