@@ -10,3 +10,27 @@
     font-style: normal;
 }
 
+body {
+  font-family: 'ARS Maquette Pro',serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  top: 0;
+  position: fixed;
+}
+
+nav > ul {
+  display: inherit;
+  list-style: none;
+}
+
+nav > li {
+  color: gray;
+}
+
+.logo {
+  width: 106px;
+}
