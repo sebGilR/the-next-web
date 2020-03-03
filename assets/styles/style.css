@@ -10,9 +10,14 @@
     font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'ARS Maquette Pro',serif;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,17 +25,45 @@ nav {
   background: white;
   top: 0;
   position: fixed;
+  width: 100vw;
+  height: 48px;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
-nav > ul {
+.menu {
   display: inherit;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 48px;
 }
 
-nav > li {
-  color: gray;
+.menu li:not(:first-child){
+  padding: 0 10px;
+}
+
+.menu a {
+    color: gray;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: black;
 }
 
 .logo {
   width: 106px;
+  height: 48px;
+}
+
+.search-btn {
+  height: 48px;
+  width: 49px;
+  border-left: 1px solid #eee;
+  color: #aaa;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 48px;
 }
