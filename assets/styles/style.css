@@ -12,6 +12,7 @@
 
 body {
   font-family: 'ARS Maquette Pro',serif;
+  width: 100vw;
 }
 
 .nav-black {
@@ -50,33 +51,32 @@ nav {
     display: inherit;
   }
 
-  .nav-btn {
-    height: 48px;
-    width: 49px;
-    border-left: 1px solid #eee;
-    color: #aaa;
-    font-size: 1.3em;
-    text-align: center;
-    line-height: 48px;
-  }
+.nav-btn {
+  height: 48px;
+  width: 49px;
+  border-left: 1px solid #eee;
+  color: #aaa;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 48px;
+}
 
-  .nav-btn:last-child {
-    color: #ef482a;
-  }
+.nav-btn:last-child {
+  color: #ef482a;
+}
 
-    .nav-alert {
-      height: 60px;
-      width: 100vw;
-      background-color: #ffdc33;
-      text-align: center;
-      line-height: 60px;
-    }
+.nav-alert {
+  height: 60px;
+  background-color: #ffdc33;
+  text-align: center;
+  line-height: 60px;
+}
 
-    .nav-alert a {
-      text-decoration: none;
-      color: black;
-      font-size: 12px;
-    }
+.nav-alert a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
 
 
 @media (min-device-width: 767px) and (min-width: 767px){
@@ -111,6 +111,10 @@ nav {
 
   .nav-alert a {
     font-size: 13px;
+  }
+
+  .nav-btn:last-child {
+    display: none;
   }
 
 }
