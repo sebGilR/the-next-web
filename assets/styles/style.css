@@ -139,11 +139,15 @@ nav > div {
 .top-news article  > div {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
   padding: 14px 12px;
-} 
+}
+
+.top-news a:first-child div {
+  justify-content: space-between;
+}
 
 .top-news div img {
   display: none;
@@ -167,6 +171,11 @@ nav > div {
 .top-news article *:not(:last-child) {
   padding: 4px 0;
   line-height: 1.2em;
+}
+
+.top-news li,
+.top-news p {
+  color: #978f8d
 }
 
 .top-meta {
@@ -414,4 +423,26 @@ nav > div {
     background: linear-gradient(160deg, rgba(238,73,44,1) 0%, rgba(238,73,44,1) 27%, rgba(255,255,255,0) 64%);
   }
 
+}
+
+@media (min-device-width: 1300px) and (min-width: 1300px){
+  .top-news a:nth-child(1) h2 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .top-news div div img {
+    display: inline-block;
+    width: 35%;
+  }
+
+  .top-news {
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 260px 260px;
+  }
+
+  .top-news a:not(:first-child) {
+    display: inline-block;
+    font-size: 120%;
+  }
 }
