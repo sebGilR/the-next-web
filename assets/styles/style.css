@@ -139,10 +139,14 @@ nav > div {
 .top-news article  > div {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
   padding: 14px 12px;
+} 
+
+.top-news div img {
+  display: none;
 }
 
 .top-news a:nth-child(1) article {
@@ -316,7 +320,6 @@ nav > div {
   .top-news article  > div {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     background: rgba(0, 0, 0, 0.7);
     height: 100%;
     padding: 14px 12px;
@@ -378,6 +381,14 @@ nav > div {
     padding-left: 126px;
   }
 
+    .menu-black > li > a {
+    font-size: 1em;
+  }
+
+  .menu > li > a {
+    font-size: 1em;
+  }
+
   .top-news {
     margin-top: 114px;
   }
@@ -388,12 +399,19 @@ nav > div {
     background: red;
   }
 
-  .menu-black > li > a {
-    font-size: 1em;
+  .top-news div div:first-child{
+    display: flex;
+    justify-content: space-between;
   }
 
-  .menu > li > a {
-    font-size: 1em;
+  .top-news div div img {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .top-news a:first-child article > div{
+    background: rgb(238,73,44);
+    background: linear-gradient(160deg, rgba(238,73,44,1) 0%, rgba(238,73,44,1) 27%, rgba(255,255,255,0) 64%);
   }
 
 }
