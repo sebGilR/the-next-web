@@ -38,18 +38,22 @@ nav {
   height: 48px;
 }
 
-  .menu li:not(:first-child){
-    display: none;
-  }
+.menu li:not(:first-child){
+  display: none;
+}
 
-  .logo {
-    width: 106px;
-    height: 48px;
-  }
+.menu li:nth-child(2) {
+  display: none;
+}
 
-  nav > div {
-    display: inherit;
-  }
+.logo {
+  width: 106px;
+  height: 48px;
+}
+
+nav > div {
+  display: inherit;
+}
 
 .nav-btn {
   height: 48px;
@@ -80,15 +84,24 @@ nav {
 
 
 @media (min-device-width: 767px) and (min-width: 767px){
+  nav {
+    text-transform: uppercase;
+  }
+
   .nav-black {
     display: flex;
     justify-content: space-between;
     background: black;
+    height: 32px;
   }
 
   .menu-black {
     list-style: none;
     display: flex;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    margin: 0;
   }
 
   .menu-black > li:not(:first-child) {
@@ -101,6 +114,27 @@ nav {
 
   .active, .menu-black > li > a:hover {
     color: white !important;
+  }
+
+  .menu li:not(:first-child){
+    display: inline;
+  }
+
+  .menu li:nth-child(1) {
+    display: none;
+  }
+
+  .menu li:not(:nth-child(2)){
+    padding: 0 10px;
+  }
+
+  .menu a {
+      color: gray;
+      text-decoration: none;
+  }
+
+  .menu li a:hover {
+      color: black;
   }
 
   .nav-alert {
@@ -133,8 +167,6 @@ nav {
     text-transform: uppercase;
   }
 
-
-
   .menu li:not(:first-child){
     padding: 0 10px;
   }
@@ -146,6 +178,15 @@ nav {
 
   .menu li a:hover {
       color: black;
+  }
+
+  .menu li:first-child {
+    display: inline-block;
+    padding-left: 0;
+  }
+
+  .menu li:nth-child(2) {
+    display: none;
   }
 
   .logo {
