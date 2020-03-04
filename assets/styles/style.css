@@ -10,6 +10,11 @@
     font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'ARS Maquette Pro',serif;
   width: 100vw;
@@ -98,6 +103,52 @@ nav > div {
   text-decoration: none;
   color: black;
   font-size: 12px;
+}
+
+.top-news {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 211px 211px 211px;
+}
+
+.top-news a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-news article {
+  width: calc(100vw - 8px);
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 4px;
+  padding: 14px 12px;
+}
+
+.top-news article:nth-child(1){
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Symphony-of-the-Night-Featured-796x417.jpg") 50% 100% no-repeat;
+  background-size: cover;
+}
+
+.top-news article:nth-child(1){
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Symphony-of-the-Night-Featured-796x417.jpg") 50% 100% no-repeat;
+  background-size: cover;
+}
+
+.top-news article:nth-child(1){
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Symphony-of-the-Night-Featured-796x417.jpg") 50% 100% no-repeat;
+  background-size: cover;
+}
+
+.top-news article *:not(:last-child) {
+  padding: 4px 0;
+  line-height: 1.2em;
+}
+
+.top-meta {
+  list-style: none;
+  display: flex;
 }
 
 @media (min-device-width: 767px) and (min-width: 767px) {
@@ -251,8 +302,6 @@ nav > div {
   }
 
   .top-news {
-    display: grid;
-    grid-template-columns: 70vw 30vw;
     grid-template-rows: 185px 185px;
   }
 
