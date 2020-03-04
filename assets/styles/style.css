@@ -82,8 +82,7 @@ nav > div {
   font-size: 12px;
 }
 
-
-@media (min-device-width: 767px) and (min-width: 767px){
+@media (min-device-width: 767px) and (min-width: 767px) {
   nav {
     text-transform: uppercase;
   }
@@ -93,6 +92,8 @@ nav > div {
     justify-content: space-between;
     background: black;
     height: 32px;
+    width: calc(100% - 145px);
+    float: right;
   }
 
   .menu-black {
@@ -102,6 +103,7 @@ nav > div {
     line-height: 32px;
     font-size: 13px;
     margin: 0;
+    padding: 0 10px;
   }
 
   .menu-black > li:not(:first-child) {
@@ -116,6 +118,11 @@ nav > div {
     color: white !important;
   }
 
+  .menu > li:nth-child(2) .logo {
+    width: 145px;
+    height: 80px;
+  }
+
   .menu li:not(:first-child){
     display: inline;
   }
@@ -126,6 +133,15 @@ nav > div {
 
   .menu li:not(:nth-child(2)){
     padding: 0 10px;
+  }
+
+  .menu li:nth-child(2) {
+    position: absolute;
+    top: 0;
+  }
+
+  .menu li:nth-child(3) {
+    margin-left: 146px;
   }
 
   .menu a {
@@ -165,6 +181,15 @@ nav > div {
 
   nav {
     text-transform: uppercase;
+  }
+
+  .nav-black {
+    width: 100vw;
+    float: none;
+  }
+
+  .menu li:nth-child(3) {
+    margin-left: 0;
   }
 
   .menu li:not(:first-child){
