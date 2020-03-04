@@ -38,6 +38,13 @@ nav {
   height: 48px;
 }
 
+.menu li:first-child a{
+  display: inline-block;
+  height: 48px;
+  align-self: center;
+  margin-top: 2px ;
+}
+
 .menu li:not(:first-child){
   display: none;
 }
@@ -60,9 +67,16 @@ nav > div {
   width: 49px;
   border-left: 1px solid #eee;
   color: #aaa;
-  font-size: 1.3em;
+  font-size: 16px;
   text-align: center;
   line-height: 48px;
+}
+
+.nav-btn i {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
 }
 
 .nav-btn:last-child {
@@ -156,7 +170,8 @@ nav > div {
   .nav-alert {
     height: 30px;
     line-height: 30px;
-    padding-left: 116px;
+    padding-left: 155px;
+    text-align: left;
   }
 
   .nav-alert a {
@@ -219,14 +234,8 @@ nav > div {
     height: 48px;
   }
 
-  .search-btn {
-    height: 48px;
-    width: 49px;
-    border-left: 1px solid #eee;
-    color: #aaa;
-    font-size: 1.3em;
-    text-align: center;
-    line-height: 48px;
+  .nav-alert {
+    padding-left: 126px;
   }
 
   .top-news {
