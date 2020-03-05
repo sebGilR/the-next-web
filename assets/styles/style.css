@@ -630,6 +630,20 @@ END OF SMALLEST SCREEN SIZE
     margin: 0 8px;
   }
 
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .categories section {
+    width: 50%;
+  }
+
+  .categories-popular {
+    height: 40vw;
+  }
+
+
 }
 
 /*************************************************************
