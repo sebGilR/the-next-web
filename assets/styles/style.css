@@ -224,6 +224,36 @@ nav > div {
   color: gray;
 }
 
+.round-news {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 68, 34, .03);
+}
+
+.round-news div {
+  width: 100%;
+  position: relative;
+}
+
+.round-news div h3 {
+  width: 100%;
+  background-color: #ff4422;
+  line-height: 43px;
+}
+
+.round-news div > div {
+  width: 100%;
+  rgba(255,68,34,.08);
+}
+
+.round-news div > img {
+  width: 60px;
+  height: 60px;
+  margin: 10.6px;
+  position: absolute;
+  top: 0
+  left: 0
+}
 @media (min-device-width: 767px) and (min-width: 767px) {
   nav {
     text-transform: uppercase;
