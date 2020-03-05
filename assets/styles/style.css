@@ -343,7 +343,29 @@ nav > div {
   background: linear-gradient(180deg, rgba(0,0,0,0.14049369747899154) 0%,
   rgba(0,0,0,0.6054796918767507) 59%,
   rgba(0,0,0,1) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 14px;
+}
 
+.categories-popular h4 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.categories-popular h3 {
+  font-size: 20px;
+}
+
+.categories-popular p {
+  color: gray;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 .categories-list {
