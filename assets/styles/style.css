@@ -252,6 +252,10 @@ nav > div {
   background: rgba(255, 68, 34, .03);
 }
 
+.round-news article:last-child {
+  display: none;
+}
+
 .round-news article > p {
   padding: 10px 16px 16px;
   font-size: 12px;
@@ -504,8 +508,20 @@ nav > div {
     margin-right: 0;
   }
 
-  .latest-article:last-child {
-    justify-self: flex-start;
+  .round-news {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .round-news h2,
+  .round-news ul {
+    width: 100%;
+  }
+
+  .round-news article {
+    flex-direction: column;
+    width: 31%;
+    margin: 1%;
   }
 
 }
@@ -611,6 +627,15 @@ nav > div {
 
   .latest-article:last-child {
     justify-self: flex-start;
+  }
+
+  .round-news article {
+    width: 23%;
+    margin: 1%;
+  }
+
+  .round-news article:last-child {
+    display: inline-block;
   }
 }
 
