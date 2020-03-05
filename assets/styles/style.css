@@ -346,6 +346,14 @@ nav > div {
   color: #555;
 }
 
+.categories {
+  padding: 0 1%;
+}
+
+.categories section {
+  padding: 0 8px;
+}
+
 .categories-popular {
   background: linear-gradient(180deg, rgba(0,0,0,0.14049369747899154) 0%,
   rgba(0,0,0,0.6054796918767507) 59%,
@@ -384,6 +392,17 @@ nav > div {
 .categories-latest header {
   float: left;
   width: calc(100% - 96px);
+  padding: 10px 14px;
+  color: #ff4422;
+}
+
+.categories-latest header > h4 {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.categories-latest header > h3 {
+  font-size: 14px;
 }
 
 .categories-latest div {
@@ -399,6 +418,12 @@ nav > div {
 
 .categories-list {
   list-style: none;
+  padding: 1em;
+}
+
+.categories-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,68,34,.06);
 }
 
 .categories-list li:before {
@@ -409,9 +434,14 @@ nav > div {
   margin-left: -1em;
 }
 
+.categories-list li > a {
+  text-decoration: none;
+  color: #555;
+}
+
 /*************************************************************
 
-END OF SMALLEST SCREEN SIZE 
+END OF SMALLEST SCREEN SIZE
 
 *************************************************************/
 
@@ -604,7 +634,7 @@ END OF SMALLEST SCREEN SIZE
 
 /*************************************************************
 
-END OF MEDIUM SCREEN SIZE 
+END OF MEDIUM SCREEN SIZE
 
 *************************************************************/
 
@@ -722,7 +752,7 @@ END OF MEDIUM SCREEN SIZE
 
 /*************************************************************
 
-END OF LARGE SCREEN SIZE 
+END OF LARGE SCREEN SIZE
 
 *************************************************************/
 
