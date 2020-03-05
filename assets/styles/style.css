@@ -22,6 +22,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ARS Maquette Pro';
+  src: url('ARSMaquettePro-Light.eot');
+  src: local('ARS Maquette Pro Light'), local('ARSMaquettePro-Light'),
+      url('ARSMaquettePro-Light.eot?#iefix') format('embedded-opentype'),
+      url('ARSMaquettePro-Light.woff2') format('woff2'),
+      url('ARSMaquettePro-Light.woff') format('woff'),
+      url('ARSMaquettePro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +208,8 @@ nav > div {
   padding: 0 10px;
 }
 
-.latest-news h2 {
+.latest-news h2,
+.round-news h2 {
   line-height: 60px;
   color: #ff4422;
   display: block;
@@ -230,30 +243,69 @@ nav > div {
   background: rgba(255, 68, 34, .03);
 }
 
-.round-news div {
+.round-news li a{
+  color: #ff4422;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.round-header {
   width: 100%;
   position: relative;
 }
 
-.round-news div h3 {
+.round-header h3 {
   width: 100%;
   background-color: #ff4422;
   line-height: 43px;
+  padding-left: 81.2px;
+  color: white;
 }
 
-.round-news div > div {
+.round-header > div {
   width: 100%;
-  rgba(255,68,34,.08);
+  background-color: rgba(255,68,34,.08);
+  padding: 10.6px 16px 10.6px 81.2px;
 }
 
-.round-news div > img {
+.round-header > img {
   width: 60px;
   height: 60px;
   margin: 10.6px;
   position: absolute;
-  top: 0
-  left: 0
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
+
+.round-header p {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
+}
+
+.round-news p {
+  line-height: 22px;
+}
+
+.round-body {
+  padding: 16px; 
+  line-height: 16px;
+}
+
+.round-body i {
+  margin-right: 3%;
+  font-size: 16px;
+  color: black;
+}
+
+.round-body p {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
 @media (min-device-width: 767px) and (min-width: 767px) {
   nav {
     text-transform: uppercase;
