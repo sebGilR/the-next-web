@@ -47,6 +47,13 @@ body {
 
 header {
   width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 3;
+}
+
+main {
+  margin-top: 110px;
 }
 
 .nav-black {
@@ -613,8 +620,7 @@ nav > div {
   }
 
   .logo {
-    width: 106px;
-    height: 48px;
+    display: none;
   }
 
   .nav-alert {
