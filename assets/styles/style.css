@@ -132,7 +132,7 @@ nav > div {
 }
 
 .top-news article {
-  width: calc(100vw - 8px);
+  width: 100%;
   height: 100%;
 }
 
@@ -193,6 +193,32 @@ nav > div {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
+}
+
+.latest-news h2 {
+  line-height: 60px;
+  color: red;
+}
+.latest-news article {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.latest-news article img {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.latest-article h3 {
+  font-size: 14px;
+}
+
+.latest-article p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: gray;
 }
 
 @media (min-device-width: 767px) and (min-width: 767px) {
