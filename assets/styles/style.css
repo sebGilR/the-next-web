@@ -339,6 +339,25 @@ nav > div {
   color: #555;
 }
 
+.categories-popular {
+  background: linear-gradient(180deg, rgba(0,0,0,0.14049369747899154) 0%,
+  rgba(0,0,0,0.6054796918767507) 59%,
+  rgba(0,0,0,1) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
+
+}
+
+.categories-list {
+  list-style: none;
+}
+
+.categories-list li:before {
+  content: "\2022";
+  color: #ff4422;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 @media (min-device-width: 767px) and (min-width: 767px) {
   nav {
     text-transform: uppercase;
