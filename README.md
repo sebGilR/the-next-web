@@ -1,8 +1,8 @@
-# Youtube Clone
+# The Next Web Responsive Clone
 
-> This is a YouTube clone for the Basic HTML structure project based on the archive link provided.
+> This a clone of The Next Web website, where all the responsiveness capabilities have been included.
 
-- Archive: http://archive.ph/Bss88
+- Original: https://thenextweb.com/
 
 ![screenshot](images/youtube-clone.png)
 
