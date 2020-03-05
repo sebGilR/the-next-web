@@ -282,6 +282,7 @@ nav > div {
 .round-news li {
   line-height: 30px;
 }
+
 .round-news li a{
   color: #ff4422;
   text-decoration: none;
@@ -295,10 +296,15 @@ nav > div {
 
 .round-header h3 {
   width: 100%;
+  height: 43px;
   background-color: #ff4422;
   line-height: 43px;
   padding-left: 81.2px;
+  padding-right: 20px;
   color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .round-header > div {
