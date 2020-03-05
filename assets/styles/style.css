@@ -647,18 +647,35 @@ END OF SMALLEST SCREEN SIZE
     position: relative;
   }
 
-  .deals span {
+  .span-off {
     position: absolute;
     top: 0;
     right: 8px;
     display: inline-block;
     background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg") right top no-repeat;
     background-size: cover;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
   }
 
-  .deals img{
+  .span-off > h5 {
+    padding-top: 1rem;
+    text-align: right;
+    transform: rotate(45deg);
+    /* Safari */
+    -webkit-transform: rotate(45deg);
+
+    /* Firefox */
+    -moz-transform: rotate(45deg);
+
+    /* IE */
+    -ms-transform: rotate(45deg);
+
+    /* Opera */
+    -o-transform: rotate(45deg);
+  }
+
+  .deals img {
     height: 23vw !important;
   }
 }
@@ -787,6 +804,10 @@ END OF MEDIUM SCREEN SIZE
   .categories-popular {
     height: 25vw;
   }
+
+  .deals img {
+    height: 17vw !important;
+  }
 }
 
 /*************************************************************
@@ -819,5 +840,13 @@ END OF LARGE SCREEN SIZE
   .wrapper {
     width: 1192px;
     margin: 0 auto;
+  }
+
+  .deals {
+    margin-bottom: 25px !important;
+  }
+
+  .deals img {
+    height: 85% !important;
   }
 }
