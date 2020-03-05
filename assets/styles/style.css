@@ -45,7 +45,7 @@ body {
   width: 100%;
 }
 
-header {
+body > header {
   width: 100%;
   top: 0;
   position: fixed;
@@ -375,6 +375,25 @@ nav > div {
   font-weight: 300;
 }
 
+.categories-latest {
+  width: 100%;
+  height: 96px;
+  background-color: rgba(255,68,34,.06);
+}
+
+.categories-latest header {
+  float: left;
+  width: calc(100% - 96px);
+}
+
+#img-1 {
+  width: 96px;
+  height: 96px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+  float: right;
+}
+
 .categories-list {
   list-style: none;
 }
@@ -386,6 +405,12 @@ nav > div {
   width: 1em;
   margin-left: -1em;
 }
+
+/*************************************************************
+
+END OF SMALLEST SCREEN SIZE 
+
+*************************************************************/
 
 @media (min-device-width: 767px) and (min-width: 767px) {
   nav {
@@ -574,6 +599,12 @@ nav > div {
 
 }
 
+/*************************************************************
+
+END OF MEDIUM SCREEN SIZE 
+
+*************************************************************/
+
 @media (min-device-width: 1024px) and (min-width: 1024px){
   * {
     box-sizing: border-box;
@@ -685,6 +716,12 @@ nav > div {
     display: inline-block;
   }
 }
+
+/*************************************************************
+
+END OF LARGE SCREEN SIZE 
+
+*************************************************************/
 
 @media (min-width: 1300px){
   .top-news a:nth-child(1) h2 {
