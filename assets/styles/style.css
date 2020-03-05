@@ -386,12 +386,15 @@ nav > div {
   width: calc(100% - 96px);
 }
 
-#img-1 {
+.categories-latest div {
   width: 96px;
   height: 96px;
+  float: right;
+}
+
+#img-1 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
   background-size: cover;
-  float: right;
 }
 
 .categories-list {
