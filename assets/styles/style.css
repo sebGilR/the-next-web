@@ -30,11 +30,11 @@
 
 body {
   font-family: 'ARS Maquette Pro',serif;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
-  width: 100vw;
+  width: 100%;
 }
 
 .nav-black {
@@ -187,6 +187,12 @@ nav > div {
 
 .top-meta li:not(:first-child) {
   padding-left: 10px;
+}
+
+.latest-news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-device-width: 767px) and (min-width: 767px) {
@@ -445,4 +451,5 @@ nav > div {
     display: inline-block;
     font-size: 120%;
   }
+
 }
