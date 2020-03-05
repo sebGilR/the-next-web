@@ -210,10 +210,14 @@ nav > div {
 
 .latest-news h2,
 .round-news h2 {
-  line-height: 60px;
+  margin-top: 60px;
   color: #ff4422;
   display: block;
   width: 100%;
+  padding: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
 .latest-news article {
@@ -240,9 +244,33 @@ nav > div {
 .round-news {
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
+}
+
+.round-news article {
+  margin: 8px;
   background: rgba(255, 68, 34, .03);
 }
 
+.round-news article > p {
+  padding: 10px 16px 16px;
+  font-size: 12px;
+  color: #555;
+}
+
+.round-news article p > span {
+  color: #aaa;
+}
+
+.round-news ul {
+  margin-bottom: 10px;
+  padding: 8px;
+  list-style: none;
+}
+
+.round-news li {
+  line-height: 30px;
+}
 .round-news li a{
   color: #ff4422;
   text-decoration: none;
@@ -289,8 +317,9 @@ nav > div {
 }
 
 .round-body {
-  padding: 16px; 
+  padding: 16px;
   line-height: 16px;
+  border-bottom: 1px solid rgba(255,68,34,.08);
 }
 
 .round-body i {
