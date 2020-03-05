@@ -445,7 +445,7 @@ END OF SMALLEST SCREEN SIZE
 
 *************************************************************/
 
-@media (min-device-width: 767px) and (min-width: 767px) {
+@media (min-width: 767px) {
   nav {
     text-transform: uppercase;
   }
@@ -669,7 +669,7 @@ END OF MEDIUM SCREEN SIZE
 
 *************************************************************/
 
-@media (min-device-width: 1024px) and (min-width: 1024px){
+@media (min-width: 1024px){
   * {
     box-sizing: border-box;
   }
