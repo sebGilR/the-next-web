@@ -640,7 +640,7 @@ END OF SMALLEST SCREEN SIZE
   }
 
   .categories-popular {
-    height: 40vw;
+    height: 37vw;
   }
 
 
@@ -761,6 +761,14 @@ END OF MEDIUM SCREEN SIZE
 
   .round-news article:last-child {
     display: inline-block;
+  }
+
+  .categories section {
+    width: 33.33333%;
+  }
+
+  .categories-popular {
+    height: 25vw;
   }
 }
 
