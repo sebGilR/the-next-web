@@ -643,7 +643,24 @@ END OF SMALLEST SCREEN SIZE
     height: 37vw;
   }
 
+  .deals {
+    position: relative;
+  }
 
+  .deals span {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    display: inline-block;
+    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg") right top no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+  }
+
+  .deals img{
+    height: 23vw !important;
+  }
 }
 
 /*************************************************************
