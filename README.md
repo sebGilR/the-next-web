@@ -4,7 +4,7 @@
 
 - Original: https://thenextweb.com/
 
-![screenshot](images/youtube-clone.png)
+![screenshot](assets/images/the_next_web_clone.png)
 
 ## Built With
 
@@ -13,15 +13,15 @@
 
 ## Live Demo
 
-[Live Demo Link](https://flpfar.github.io/youtube-clone/)
+[Live Demo Link](https://rawcdn.githack.com/lBuggie/the-next-web/d97faccc0828140f443e6827a5e2bf50ec7f6cff/index.html)
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@flpfar](https://github.com/flpfar)
-- Twitter: [@flpfar](https://twitter.com/flpfar)
-- Linkedin: [linkedin](https://www.linkedin.com/in/felipe-augusto-rosa-7b96a4b1)
+- Github: [@ghamtre](https://github.com/ghamtre)
+- Twitter: [@idgm5](https://twitter.com/idgm5)
+- Linkedin: [linkedin](https://www.linkedin.com/in/isaacmunguia/)
 
 👤 **Author2**
 
@@ -39,6 +39,3 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- 
