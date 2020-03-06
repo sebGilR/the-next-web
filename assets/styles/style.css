@@ -91,6 +91,10 @@ nav {
   color: white;
 }
 
+footer ul li {
+  display: inline;
+}
+
 .top-news li,
 .top-news p {
   color: #978f8d;
@@ -113,6 +117,29 @@ nav {
   padding: 0;
   align-items: center;
   height: 48px;
+}
+
+.categories-list li > a {
+  text-decoration: none;
+  color: #555;
+}
+
+footer ul:first-child li > a {
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+footer ul:last-child li a {
+  margin: 0 6px;
+  color: #aaa;
 }
 
 .menu li:first-child a {
@@ -188,8 +215,30 @@ nav > div {
   padding: 14px 12px;
 }
 
+footer > div:first-child {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 161px;
+}
+
+footer > div:last-child {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding: 39px 21%;
+  color: #aaa;
+  text-align: center;
+}
+
 .top-news a:first-child div {
   justify-content: space-between;
+}
+
+footer img {
+  height: 9px;
 }
 
 .round-header > img {
@@ -306,6 +355,23 @@ nav > div {
   line-height: 14px;
 }
 
+.round-news p {
+  line-height: 22px;
+}
+
+.round-body p {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.categories-popular p {
+  color: gray;
+  font-size: 12px;
+  font-weight: 300;
+}
+
 .round-news article > p {
   padding: 10px 16px 16px;
   font-size: 12px;
@@ -314,6 +380,11 @@ nav > div {
 
 .round-news article p > span {
   color: #aaa;
+}
+
+footer ul {
+  width: auto;
+  list-style: none;
 }
 
 .round-news ul {
@@ -340,27 +411,16 @@ nav > div {
   text-overflow: ellipsis;
 }
 
-.round-news p {
-  line-height: 22px;
-}
-
 .round-body {
   padding: 16px;
   line-height: 16px;
-  border-bottom: 1px solid rgba(255, 68, 34, .08);
+  border-bottom: 1px solid rgba(255, 68, 34, 0.08);
 }
 
 .round-body i {
   margin-right: 3%;
   font-size: 16px;
   color: black;
-}
-
-.round-body p {
-  font-size: 13px;
-  display: flex;
-  align-items: center;
-  color: #555;
 }
 
 .categories {
@@ -371,17 +431,15 @@ nav > div {
   padding: 0 8px;
 }
 
-.categories .section-header {
-  padding-left: 0;
-}
-
 .categories-popular {
   background:
-      linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0.14049369747899154) 0%,
       rgba(0, 0, 0, 0.6054796918767507) 59%,
-      rgba(0, 0, 0, 1) 100%),
-      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
   background-size: cover;
   background-position: center;
   height: 70vw;
@@ -401,16 +459,10 @@ nav > div {
   font-size: 20px;
 }
 
-.categories-popular p {
-  color: gray;
-  font-size: 12px;
-  font-weight: 300;
-}
-
 .categories-latest {
   width: 100%;
   height: 96px;
-  background-color: rgba(255, 68, 34, .06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .categories-latest header {
@@ -429,12 +481,6 @@ nav > div {
   font-size: 14px;
 }
 
-.categories-latest div {
-  width: 96px;
-  height: 96px;
-  float: right;
-}
-
 #img-1 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
   background-size: cover;
@@ -445,22 +491,12 @@ nav > div {
   padding: 1em;
 }
 
-.categories-list li {
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(255, 68, 34, .06);
-}
-
-.categories-list li:before {
+.categories-list li::before {
   content: "\2022";
   color: #f42;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
-}
-
-.categories-list li > a {
-  text-decoration: none;
-  color: #555;
 }
 
 .inline-menu h2 {
@@ -486,62 +522,8 @@ footer {
   margin-top: 30px;
 }
 
-footer a {
-  text-decoration: none;
-  color: white;
-}
-
-footer img {
-  height: 9px;
-}
-
-footer > div:first-child {
-  background-color: #131313;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 161px;
-}
-
-footer ul {
-  width: auto;
-  list-style: none;
-}
-
-footer ul li {
-  display: inline;
-}
-
-footer ul:first-child li > a {
-  display: inline-block;
-  text-align: center;
-  line-height: 35px;
-  width: 40px;
-  height: 40px;
-  font-size: 16px;
-  background-color: #333;
-  border: 2px solid #333;
-  border-radius: 50%;
-  margin: 0 3px;
-}
-
 footer ul:first-child li > a:hover {
   background-color: transparent;
-}
-
-footer ul:last-child li a {
-  margin: 0 6px;
-  color: #aaa;
-}
-
-footer > div:last-child {
-  background-color: #000;
-  display: flex;
-  justify-content: center;
-  padding: 39px 21%;
-  color: #aaa;
-  text-align: center;
 }
 
 #details {
@@ -577,8 +559,27 @@ END OF SMALLEST SCREEN SIZE
     padding: 0 10px;
   }
 
+  .categories-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 68, 34, 0.06);
+  }
+
   .menu-black > li:not(:first-child) {
     padding: 0 10px;
+  }
+
+  .menu a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-alert a {
+    font-size: 13px;
   }
 
   .menu-black > li > a {
@@ -586,7 +587,8 @@ END OF SMALLEST SCREEN SIZE
     text-decoration: none;
   }
 
-  .active, .menu-black > li > a:hover {
+  .active,
+  .menu-black > li > a:hover {
     color: white !important;
   }
 
@@ -616,11 +618,6 @@ END OF SMALLEST SCREEN SIZE
     margin-left: 146px;
   }
 
-  .menu a {
-    color: gray;
-    text-decoration: none;
-  }
-
   .menu li a:hover {
     color: black;
   }
@@ -630,10 +627,6 @@ END OF SMALLEST SCREEN SIZE
     line-height: 30px;
     padding-left: 155px;
     text-align: left;
-  }
-
-  .nav-alert a {
-    font-size: 13px;
   }
 
   .nav-btn:last-child {
@@ -693,8 +686,14 @@ END OF SMALLEST SCREEN SIZE
 
   .round-header > div {
     width: 100%;
-    background-color: rgba(255, 68, 34, .08);
+    background-color: rgba(255, 68, 34, 0.08);
     padding: 10.6px 16px 10.6px 81.2px;
+  }
+
+  .categories-latest div {
+    width: 96px;
+    height: 96px;
+    float: right;
   }
 
   .top-news article > div {
@@ -737,6 +736,10 @@ END OF SMALLEST SCREEN SIZE
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 8px;
+  }
+
+  .categories .section-header {
+    padding-left: 0;
   }
 
   #rounds-menu .section-header {
