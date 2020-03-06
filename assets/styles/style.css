@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-Regular.eot');
-  src: local('ARS Maquette Pro Regular'), local('ARSMaquettePro-Regular'),
+  src:
+    local('ARS Maquette Pro Regular'),
+    local('ARSMaquettePro-Regular'),
     url('ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
     url('ARSMaquettePro-Regular.woff2') format('woff2'),
     url('ARSMaquettePro-Regular.woff') format('woff'),
@@ -13,7 +15,9 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-Bold.eot');
-  src: local('ARS Maquette Pro Bold'), local('ARSMaquettePro-Bold'),
+  src:
+    local('ARS Maquette Pro Bold'),
+    local('ARSMaquettePro-Bold'),
     url('ARSMaquettePro-Bold.eot?#iefix') format('embedded-opentype'),
     url('ARSMaquettePro-Bold.woff2') format('woff2'),
     url('ARSMaquettePro-Bold.woff') format('woff'),
@@ -25,7 +29,9 @@
 @font-face {
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-Light.eot');
-  src: local('ARS Maquette Pro Light'), local('ARSMaquettePro-Light'),
+  src:
+    local('ARS Maquette Pro Light'),
+    local('ARSMaquettePro-Light'),
     url('ARSMaquettePro-Light.eot?#iefix') format('embedded-opentype'),
     url('ARSMaquettePro-Light.woff2') format('woff2'),
     url('ARSMaquettePro-Light.woff') format('woff'),
@@ -72,6 +78,32 @@ nav {
   font-size: 0.9em;
   width: 100%;
   height: 48px;
+}
+
+.nav-alert a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.top-news a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-news li,
+.top-news p {
+  color: #978f8d;
+}
+
+.round-news li {
+  line-height: 30px;
+}
+
+.round-news li a {
+  color: #f4a;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .menu {
@@ -135,22 +167,11 @@ nav > div {
   line-height: 60px;
 }
 
-.nav-alert a {
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-}
-
 .top-news {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 211px 211px 211px;
   grid-gap: 4px;
-}
-
-.top-news a {
-  text-decoration: none;
-  color: white;
 }
 
 .top-news article {
@@ -171,7 +192,32 @@ nav > div {
   justify-content: space-between;
 }
 
+.round-header > img {
+  width: 60px;
+  height: 60px;
+  margin: 10.6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .top-news div img {
+  display: none;
+}
+
+.latest-news article {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 0 8px;
+}
+
+.round-news article {
+  margin: 8px;
+  background: rgba(255, 68, 34, 0.03);
+}
+
+.round-news article:last-child {
   display: none;
 }
 
@@ -195,11 +241,6 @@ nav > div {
   line-height: 1.2em;
 }
 
-.top-news li,
-.top-news p {
-  color: #978f8d
-}
-
 .top-meta {
   list-style: none;
   display: flex;
@@ -220,7 +261,7 @@ nav > div {
 
 .section-header {
   margin-top: 60px;
-  color: #ff4422;
+  color: #f4a;
   display: block;
   width: 100%;
   padding: 8px;
@@ -231,12 +272,6 @@ nav > div {
 
 .inline-menu {
   width: 100%;
-}
-
-.latest-news article {
-  display: flex;
-  margin-bottom: 10px;
-  padding: 0 8px;
 }
 
 .latest-news article img {
@@ -265,13 +300,10 @@ nav > div {
   float: none;
 }
 
-.round-news article {
-  margin: 8px;
-  background: rgba(255, 68, 34, .03);
-}
-
-.round-news article:last-child {
-  display: none;
+.round-header p {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
 }
 
 .round-news article > p {
@@ -290,16 +322,6 @@ nav > div {
   list-style: none;
 }
 
-.round-news li {
-  line-height: 30px;
-}
-
-.round-news li a {
-  color: #ff4422;
-  text-decoration: none;
-  font-size: 14px;
-}
-
 .round-header {
   width: 100%;
   position: relative;
@@ -308,7 +330,7 @@ nav > div {
 .round-header h3 {
   width: 100%;
   height: 43px;
-  background-color: #ff4422;
+  background-color: #f4a;
   line-height: 43px;
   padding-left: 81.2px;
   padding-right: 20px;
@@ -316,28 +338,6 @@ nav > div {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-}
-
-.round-header > div {
-  width: 100%;
-  background-color: rgba(255, 68, 34, .08);
-  padding: 10.6px 16px 10.6px 81.2px;
-}
-
-.round-header > img {
-  width: 60px;
-  height: 60px;
-  margin: 10.6px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.round-header p {
-  font-size: 11px;
-  font-weight: 300;
-  line-height: 14px;
 }
 
 .round-news p {
@@ -414,7 +414,7 @@ nav > div {
   float: left;
   width: calc(100% - 96px);
   padding: 10px 14px;
-  color: #ff4422;
+  color: #f4a;
 }
 
 .categories-latest header > h4 {
@@ -449,7 +449,7 @@ nav > div {
 
 .categories-list li:before {
   content: "\2022";
-  color: #ff4422;
+  color: #f4a;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -470,7 +470,7 @@ nav > div {
   float: right;
   margin-top: 73px;
   text-decoration: none;
-  color: #ff4422;
+  color: #f4a;
 }
 
 .span-off {
@@ -686,6 +686,12 @@ END OF SMALLEST SCREEN SIZE
     max-width: 100%;
     height: 100%;
     margin: 0;
+  }
+
+  .round-header > div {
+    width: 100%;
+    background-color: rgba(255, 68, 34, .08);
+    padding: 10.6px 16px 10.6px 81.2px;
   }
 
   .top-news article > div {
@@ -952,7 +958,7 @@ END OF MEDIUM SCREEN SIZE
   }
 
   .inline-menu ul > li:not(:first-child) {
-    border-left: 1px solid #ff4422;
+    border-left: 1px solid #f4a;
   }
 
   .round-news li {
