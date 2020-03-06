@@ -376,9 +376,12 @@ nav > div {
 }
 
 .categories-popular {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.14049369747899154) 0%,
+  background:
+      linear-gradient(180deg,
+      rgba(0, 0, 0, 0.14049369747899154) 0%,
       rgba(0, 0, 0, 0.6054796918767507) 59%,
-      rgba(0, 0, 0, 1) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
+      rgba(0, 0, 0, 1) 100%),
+      url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
   background-size: cover;
   background-position: center;
   height: 70vw;
@@ -784,13 +787,9 @@ END OF SMALLEST SCREEN SIZE
     padding-top: 1rem;
     text-align: right;
     transform: rotate(45deg);
-    /* Safari */
     -webkit-transform: rotate(45deg);
-    /* Firefox */
     -moz-transform: rotate(45deg);
-    /* IE */
     -ms-transform: rotate(45deg);
-    /* Opera */
     -o-transform: rotate(45deg);
   }
 
