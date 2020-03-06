@@ -526,6 +526,9 @@ footer > div:last-child{
   text-align: center;
 }
 
+#details {
+  color: red;
+}
 
 /*************************************************************
 
