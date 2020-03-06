@@ -840,7 +840,7 @@ END OF MEDIUM SCREEN SIZE
   }
 
   .nav-alert {
-    padding-left: 126px;
+    padding-left: 20px;
   }
 
     .menu-black > li > a {
@@ -937,8 +937,6 @@ END OF MEDIUM SCREEN SIZE
   .round-news li {
     line-height: 16px;
   }
-
-
 }
 
 /*************************************************************
