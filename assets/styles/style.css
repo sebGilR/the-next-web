@@ -1,23 +1,23 @@
 @font-face {
-    font-family: 'ARS Maquette Pro';
-    src: url('ARSMaquettePro-Regular.eot');
-    src: local('ARS Maquette Pro Regular'), local('ARSMaquettePro-Regular'),
-        url('ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('ARSMaquettePro-Regular.woff2') format('woff2'),
-        url('ARSMaquettePro-Regular.woff') format('woff'),
-        url('ARSMaquettePro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'ARS Maquette Pro';
+  src: url('ARSMaquettePro-Regular.eot');
+  src: local('ARS Maquette Pro Regular'), local('ARSMaquettePro-Regular'),
+    url('ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('ARSMaquettePro-Regular.woff2') format('woff2'),
+    url('ARSMaquettePro-Regular.woff') format('woff'),
+    url('ARSMaquettePro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-Bold.eot');
   src: local('ARS Maquette Pro Bold'), local('ARSMaquettePro-Bold'),
-      url('ARSMaquettePro-Bold.eot?#iefix') format('embedded-opentype'),
-      url('ARSMaquettePro-Bold.woff2') format('woff2'),
-      url('ARSMaquettePro-Bold.woff') format('woff'),
-      url('ARSMaquettePro-Bold.ttf') format('truetype');
+    url('ARSMaquettePro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('ARSMaquettePro-Bold.woff2') format('woff2'),
+    url('ARSMaquettePro-Bold.woff') format('woff'),
+    url('ARSMaquettePro-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -26,10 +26,10 @@
   font-family: 'ARS Maquette Pro';
   src: url('ARSMaquettePro-Light.eot');
   src: local('ARS Maquette Pro Light'), local('ARSMaquettePro-Light'),
-      url('ARSMaquettePro-Light.eot?#iefix') format('embedded-opentype'),
-      url('ARSMaquettePro-Light.woff2') format('woff2'),
-      url('ARSMaquettePro-Light.woff') format('woff'),
-      url('ARSMaquettePro-Light.ttf') format('truetype');
+    url('ARSMaquettePro-Light.eot?#iefix') format('embedded-opentype'),
+    url('ARSMaquettePro-Light.woff2') format('woff2'),
+    url('ARSMaquettePro-Light.woff') format('woff'),
+    url('ARSMaquettePro-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -41,7 +41,7 @@
 }
 
 body {
-  font-family: 'ARS Maquette Pro',serif;
+  font-family: 'ARS Maquette Pro', serif;
   width: 100%;
 }
 
@@ -83,14 +83,14 @@ nav {
   height: 48px;
 }
 
-.menu li:first-child a{
+.menu li:first-child a {
   display: inline-block;
   height: 48px;
   align-self: center;
   margin-top: 2px;
 }
 
-.menu li:not(:first-child){
+.menu li:not(:first-child) {
   display: none;
 }
 
@@ -151,7 +151,6 @@ nav > div {
 .top-news a {
   text-decoration: none;
   color: white;
-
 }
 
 .top-news article {
@@ -159,7 +158,7 @@ nav > div {
   height: 100%;
 }
 
-.top-news article  > div {
+.top-news article > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -230,7 +229,7 @@ nav > div {
   letter-spacing: -1px;
 }
 
-.inline-menu  {
+.inline-menu {
   width: 100%;
 }
 
@@ -295,7 +294,7 @@ nav > div {
   line-height: 30px;
 }
 
-.round-news li a{
+.round-news li a {
   color: #ff4422;
   text-decoration: none;
   font-size: 14px;
@@ -321,7 +320,7 @@ nav > div {
 
 .round-header > div {
   width: 100%;
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, .08);
   padding: 10.6px 16px 10.6px 81.2px;
 }
 
@@ -348,7 +347,7 @@ nav > div {
 .round-body {
   padding: 16px;
   line-height: 16px;
-  border-bottom: 1px solid rgba(255,68,34,.08);
+  border-bottom: 1px solid rgba(255, 68, 34, .08);
 }
 
 .round-body i {
@@ -377,9 +376,9 @@ nav > div {
 }
 
 .categories-popular {
-  background: linear-gradient(180deg, rgba(0,0,0,0.14049369747899154) 0%,
-  rgba(0,0,0,0.6054796918767507) 59%,
-  rgba(0,0,0,1) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.14049369747899154) 0%,
+      rgba(0, 0, 0, 0.6054796918767507) 59%,
+      rgba(0, 0, 0, 1) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Twitter-Fleets-Featured-796x417.jpg);
   background-size: cover;
   background-position: center;
   height: 70vw;
@@ -408,7 +407,7 @@ nav > div {
 .categories-latest {
   width: 100%;
   height: 96px;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, .06);
 }
 
 .categories-latest header {
@@ -445,7 +444,7 @@ nav > div {
 
 .categories-list li {
   padding: 6px 0;
-  border-bottom: 1px solid rgba(255,68,34,.06);
+  border-bottom: 1px solid rgba(255, 68, 34, .06);
 }
 
 .categories-list li:before {
@@ -507,7 +506,7 @@ footer ul {
   list-style: none;
 }
 
-footer ul li{
+footer ul li {
   display: inline;
 }
 
@@ -533,7 +532,7 @@ footer ul:last-child li a {
   color: #aaa;
 }
 
-footer > div:last-child{
+footer > div:last-child {
   background-color: #000;
   display: flex;
   justify-content: center;
@@ -551,7 +550,6 @@ footer > div:last-child{
 END OF SMALLEST SCREEN SIZE
 
 *************************************************************/
-
 @media (min-width: 767px) {
   nav {
     text-transform: uppercase;
@@ -579,7 +577,8 @@ END OF SMALLEST SCREEN SIZE
   .menu-black > li:not(:first-child) {
     padding: 0 10px;
   }
-  .menu-black > li > a{
+
+  .menu-black > li > a {
     color: #636362;
     text-decoration: none;
   }
@@ -593,7 +592,7 @@ END OF SMALLEST SCREEN SIZE
     height: 80px;
   }
 
-  .menu li:not(:first-child){
+  .menu li:not(:first-child) {
     display: inline;
   }
 
@@ -601,7 +600,7 @@ END OF SMALLEST SCREEN SIZE
     display: none;
   }
 
-  .menu li:not(:nth-child(2)){
+  .menu li:not(:nth-child(2)) {
     padding: 0 10px;
   }
 
@@ -615,12 +614,12 @@ END OF SMALLEST SCREEN SIZE
   }
 
   .menu a {
-      color: gray;
-      text-decoration: none;
+    color: gray;
+    text-decoration: none;
   }
 
   .menu li a:hover {
-      color: black;
+    color: black;
   }
 
   .nav-alert {
@@ -659,7 +658,7 @@ END OF SMALLEST SCREEN SIZE
     font-size: 85%;
   }
 
-  .top-news a:nth-child(2){
+  .top-news a:nth-child(2) {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
   }
@@ -689,7 +688,7 @@ END OF SMALLEST SCREEN SIZE
     margin: 0;
   }
 
-  .top-news article  > div {
+  .top-news article > div {
     display: flex;
     flex-direction: column;
     background: rgba(0, 0, 0, 0.7);
@@ -781,13 +780,10 @@ END OF SMALLEST SCREEN SIZE
     transform: rotate(45deg);
     /* Safari */
     -webkit-transform: rotate(45deg);
-
     /* Firefox */
     -moz-transform: rotate(45deg);
-
     /* IE */
     -ms-transform: rotate(45deg);
-
     /* Opera */
     -o-transform: rotate(45deg);
   }
@@ -804,10 +800,9 @@ END OF SMALLEST SCREEN SIZE
     margin: 0 8px;
   }
 
-  footer > div:last-child{
+  footer > div:last-child {
     padding: 39px 0;
   }
-
 }
 
 /*************************************************************
@@ -815,8 +810,7 @@ END OF SMALLEST SCREEN SIZE
 END OF MEDIUM SCREEN SIZE
 
 *************************************************************/
-
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
   * {
     box-sizing: border-box;
   }
@@ -839,17 +833,17 @@ END OF MEDIUM SCREEN SIZE
     margin-left: 0;
   }
 
-  .menu li:not(:first-child){
+  .menu li:not(:first-child) {
     padding: 0 10px;
   }
 
   .menu a {
-      color: gray;
-      text-decoration: none;
+    color: gray;
+    text-decoration: none;
   }
 
   .menu li a:hover {
-      color: black;
+    color: black;
   }
 
   .menu li:first-child {
@@ -869,11 +863,11 @@ END OF MEDIUM SCREEN SIZE
     padding-left: 20px;
   }
 
-    .menu-black > li > a {
+  .menu-black > li > a {
     font-size: 1em;
   }
 
-  .menu > li > a {
+  .menu >  li > a {
     font-size: 1em;
   }
 
@@ -887,7 +881,7 @@ END OF MEDIUM SCREEN SIZE
     background: red;
   }
 
-  .top-news div div:first-child{
+  .top-news div div:first-child {
     display: flex;
     justify-content: space-between;
   }
@@ -897,9 +891,9 @@ END OF MEDIUM SCREEN SIZE
     width: 50%;
   }
 
-  .top-news a:first-child article > div{
-    background: rgb(238,73,44);
-    background: linear-gradient(160deg, rgba(238,73,44,1) 0%, rgba(238,73,44,1) 27%, rgba(255,255,255,0) 64%);
+  .top-news a:first-child article > div {
+    background: rgb(238, 73, 44);
+    background: linear-gradient(160deg, rgba(238, 73, 44, 1) 0%, rgba(238, 73, 44, 1) 27%, rgba(255, 255, 255, 0) 64%);
   }
 
   .latest-news article {
@@ -945,6 +939,7 @@ END OF MEDIUM SCREEN SIZE
     width: auto;
     float: left;
   }
+
   .inline-menu ul {
     width: auto;
     float: right;
@@ -968,7 +963,6 @@ END OF MEDIUM SCREEN SIZE
     margin-left: 1%;
     margin-right: calc(1% + 8px);
   }
-
 }
 
 /*************************************************************
@@ -976,8 +970,7 @@ END OF MEDIUM SCREEN SIZE
 END OF LARGE SCREEN SIZE
 
 *************************************************************/
-
-@media (min-width: 1300px){
+@media (min-width: 1300px) {
   .top-news a:nth-child(1) h2 {
     font-size: 3em;
     font-weight: bold;
