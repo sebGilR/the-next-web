@@ -25,9 +25,9 @@
 
 👤 **Author2**
 
-- Github: [@lBuggie](https://github.com/githubhandle)
+- Github: [@lBuggie](https://github.com/lBuggie)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)
-- Linkedin: [linkedin](https://www.linkedin.com/in/sebasti%C3%A1n-gil-rodr%C3%ADguez-9b776073/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sebastian-gil-rodriguez-9b776073)
 
 ## 🤝 Contributing
 
