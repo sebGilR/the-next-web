@@ -588,16 +588,12 @@ END OF SMALLEST SCREEN SIZE
     text-decoration: none;
   }
 
-  footer ul:first-child li > a {
-    margin: 0 8px;
-  }
-
   .menu > li > a {
     font-size: 12px;
   }
 
-  .menu-black > li > a {
-    font-size: 1em;
+  footer ul:first-child li > a {
+    margin: 0 8px;
   }
 
   .top-news a:not(:first-child) {
@@ -843,7 +839,7 @@ END OF MEDIUM SCREEN SIZE
   .round-news li {
     line-height: 16px;
   }
-  
+
   .inline-menu ul > li {
     display: inline-block;
     padding: 0 10px;
