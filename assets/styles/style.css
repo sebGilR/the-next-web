@@ -704,6 +704,10 @@ END OF SMALLEST SCREEN SIZE
     margin-top: 30px;
   }
 
+  .off-set {
+    margin-left: 1%;
+  }
+  
   .latest-news article {
     flex-direction: column;
     width: 31%;
@@ -954,6 +958,7 @@ END OF MEDIUM SCREEN SIZE
   .round-news li {
     line-height: 16px;
   }
+
 }
 
 /*************************************************************
