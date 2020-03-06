@@ -462,6 +462,44 @@ nav > div {
   color: #ff4422;
 }
 
+footer {
+  color: white;
+  font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer img {
+  height: 9px;
+}
+
+footer > div:first-child {
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 161px;
+}
+
+footer ul {
+  width: auto;
+  list-style: none;
+}
+
+footer ul li{
+  display: inline;
+}
+
+footer > div:last-child{
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
 /*************************************************************
 
 END OF SMALLEST SCREEN SIZE
