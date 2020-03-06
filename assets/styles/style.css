@@ -101,7 +101,7 @@ nav {
 }
 
 .round-news li a {
-  color: #f4a;
+  color: #f42;
   text-decoration: none;
   font-size: 14px;
 }
@@ -261,7 +261,7 @@ nav > div {
 
 .section-header {
   margin-top: 60px;
-  color: #f4a;
+  color: #f42;
   display: block;
   width: 100%;
   padding: 8px;
@@ -330,7 +330,7 @@ nav > div {
 .round-header h3 {
   width: 100%;
   height: 43px;
-  background-color: #f4a;
+  background-color: #f42;
   line-height: 43px;
   padding-left: 81.2px;
   padding-right: 20px;
@@ -414,7 +414,7 @@ nav > div {
   float: left;
   width: calc(100% - 96px);
   padding: 10px 14px;
-  color: #f4a;
+  color: #f42;
 }
 
 .categories-latest header > h4 {
@@ -449,7 +449,7 @@ nav > div {
 
 .categories-list li:before {
   content: "\2022";
-  color: #f4a;
+  color: #f42;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -470,7 +470,7 @@ nav > div {
   float: right;
   margin-top: 73px;
   text-decoration: none;
-  color: #f4a;
+  color: #f42;
 }
 
 .span-off {
@@ -958,7 +958,7 @@ END OF MEDIUM SCREEN SIZE
   }
 
   .inline-menu ul > li:not(:first-child) {
-    border-left: 1px solid #f4a;
+    border-left: 1px solid #f42;
   }
 
   .round-news li {
