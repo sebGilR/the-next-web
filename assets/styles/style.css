@@ -212,7 +212,7 @@ nav > div {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 10px;
+  padding: 0 1%;
 }
 
 .section-header {
@@ -256,6 +256,10 @@ nav > div {
   display: flex;
   flex-direction: column;
   padding: 0 10px;
+}
+
+#rounds-menu .section-header {
+  float: none;
 }
 
 .round-news article {
@@ -364,6 +368,10 @@ nav > div {
   padding: 0 8px;
 }
 
+.categories .section-header {
+  padding-left: 0;
+}
+
 .categories-popular {
   background: linear-gradient(180deg, rgba(0,0,0,0.14049369747899154) 0%,
   rgba(0,0,0,0.6054796918767507) 59%,
@@ -457,9 +465,13 @@ nav > div {
 #deals {
   width: auto;
   float: right;
-  margin-top: 68px;
+  margin-top: 73px;
   text-decoration: none;
   color: #ff4422;
+}
+
+.span-off {
+  display: none;
 }
 
 footer {
@@ -710,6 +722,10 @@ END OF SMALLEST SCREEN SIZE
     padding: 0 8px;
   }
 
+  #rounds-menu .section-header {
+    float: left;
+  }
+
   .round-news h2,
   .round-news ul {
     width: 100%;
@@ -739,6 +755,7 @@ END OF SMALLEST SCREEN SIZE
   }
 
   .span-off {
+    display: inline-block;
     position: absolute;
     top: 0;
     right: 8px;
