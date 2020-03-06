@@ -706,8 +706,9 @@ END OF SMALLEST SCREEN SIZE
 
   .off-set {
     margin-left: 1%;
+    margin-right: calc(1% + 8px);
   }
-  
+
   .latest-news article {
     flex-direction: column;
     width: 31%;
