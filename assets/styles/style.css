@@ -449,6 +449,19 @@ nav > div {
   color: #555;
 }
 
+.inline-menu h2 {
+  width: auto;
+  float: left;
+}
+
+#deals {
+  width: auto;
+  float: right;
+  margin-top: 68px;
+  text-decoration: none;
+  color: #ff4422;
+}
+
 /*************************************************************
 
 END OF SMALLEST SCREEN SIZE
@@ -687,6 +700,10 @@ END OF SMALLEST SCREEN SIZE
 
   .deals img {
     height: 23vw !important;
+  }
+
+  #deals {
+    margin-top: 45px;
   }
 }
 
