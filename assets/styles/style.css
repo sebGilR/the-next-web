@@ -125,10 +125,6 @@ footer ul li {
   font-size: 13px;
 }
 
-.categories-list li > a:hover {
-  color: black;
-}
-
 footer ul:first-child li > a {
   display: inline-block;
   text-align: center;
@@ -149,6 +145,10 @@ footer ul:last-child li a {
 
 .inline-menu a:hover {
   color: #000;
+}
+
+.categories-list li > a:hover {
+  color: black;
 }
 
 .menu li:first-child a {
