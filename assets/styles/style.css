@@ -706,7 +706,7 @@ END OF SMALLEST SCREEN SIZE
 
   .off-set {
     margin-left: 1%;
-    margin-right: calc(1% + 8px);
+    margin-right: calc(2% + 8px);
   }
 
   .latest-news article {
@@ -958,6 +958,11 @@ END OF MEDIUM SCREEN SIZE
 
   .round-news li {
     line-height: 16px;
+  }
+
+  .off-set {
+    margin-left: 1%;
+    margin-right: calc(1% + 8px);
   }
 
 }
