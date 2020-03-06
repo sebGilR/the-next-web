@@ -142,11 +142,19 @@ footer ul:last-child li a {
   color: #aaa;
 }
 
+.inline-menu a:hover {
+  color: #000;
+}
+
 .menu li:first-child a {
   display: inline-block;
   height: 48px;
   align-self: center;
   margin-top: 2px;
+}
+
+footer ul:last-child li a:hover {
+  color: #fff;
 }
 
 .menu li:not(:first-child) {
@@ -317,6 +325,11 @@ footer img {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.section-header:hover {
+  color: black;
 }
 
 .inline-menu {
@@ -460,6 +473,7 @@ footer ul {
 }
 
 .categories-latest {
+  position: relative;
   width: 100%;
   height: 96px;
   background-color: rgba(255, 68, 34, 0.06);
@@ -482,6 +496,41 @@ footer ul {
 }
 
 #img-1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-4 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-5 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-6 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-7 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
+  background-size: cover;
+}
+
+#img-8 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Messenger-Flowers.jpg) center no-repeat;
   background-size: cover;
 }
@@ -510,6 +559,10 @@ footer ul {
   margin-top: 73px;
   text-decoration: none;
   color: #f42;
+}
+
+#deals:hover {
+  color: #000;
 }
 
 .span-off {
@@ -689,21 +742,22 @@ END OF SMALLEST SCREEN SIZE
     margin: 0;
   }
 
-  .round-header > div {
-    width: 100%;
-    background-color: rgba(255, 68, 34, 0.08);
-    padding: 10.6px 16px 10.6px 81.2px;
-  }
-
   .categories-latest div {
     width: 96px;
     height: 96px;
     float: right;
   }
 
+  .round-header > div {
+    width: 100%;
+    background-color: rgba(255, 68, 34, 0.08);
+    padding: 10.6px 16px 10.6px 81.2px;
+  }
+
   .top-news article > div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background: rgba(0, 0, 0, 0.7);
     height: 100%;
     padding: 14px 12px;
@@ -822,17 +876,12 @@ END OF MEDIUM SCREEN SIZE
     box-sizing: border-box;
   }
 
-  header {
-    top: 0;
-    position: fixed;
-  }
-
   nav {
     text-transform: uppercase;
   }
 
   .nav-black {
-    width: 100vw;
+    width: 100%;
     float: none;
   }
 
