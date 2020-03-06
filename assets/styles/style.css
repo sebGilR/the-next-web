@@ -588,9 +588,21 @@ END OF SMALLEST SCREEN SIZE
     text-decoration: none;
   }
 
+  footer ul:first-child li > a {
+    margin: 0 8px;
+  }
+
+  .menu > li > a {
+    font-size: 12px;
+  }
+
+  .menu-black > li > a {
+    font-size: 1em;
+  }
+
   .top-news a:not(:first-child) {
-      display: inline-block;
-      font-size: 85%;
+    display: inline-block;
+    font-size: 85%;
   }
 
   .top-news a:nth-child(2) {
@@ -606,10 +618,6 @@ END OF SMALLEST SCREEN SIZE
   .top-news a:nth-child(4) {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-  }
-
-  footer ul:first-child li > a {
-    margin: 0 8px;
   }
 
   .active,
@@ -641,14 +649,6 @@ END OF SMALLEST SCREEN SIZE
 
   .menu li:nth-child(3) {
     margin-left: 146px;
-  }
-
-  .menu > li > a {
-    font-size: 12px;
-  }
-
-  .menu-black > li > a {
-    font-size: 1em;
   }
 
   .menu li a:hover {
@@ -840,13 +840,13 @@ END OF MEDIUM SCREEN SIZE
     float: none;
   }
 
+  .round-news li {
+    line-height: 16px;
+  }
+  
   .inline-menu ul > li {
     display: inline-block;
     padding: 0 10px;
-  }
-
-  .round-news li {
-    line-height: 16px;
   }
 
   .menu li:nth-child(3) {
@@ -986,7 +986,7 @@ END OF LARGE SCREEN SIZE
   .deals img {
     height: 85% !important;
   }
-  
+
   .top-news div div img {
     display: inline-block;
     width: 35%;
@@ -1010,5 +1010,4 @@ END OF LARGE SCREEN SIZE
   .deals {
     margin-bottom: 25px !important;
   }
-
 }
