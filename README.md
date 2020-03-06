@@ -9,7 +9,7 @@
 ## Built With
 
 - HTML5, CSS3
-- Flexbox
+- Flexbox, Grid, Float
 
 ## Live Demo
 
