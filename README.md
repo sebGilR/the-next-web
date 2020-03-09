@@ -17,13 +17,13 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Isaac Gonzalez**
 
 - Github: [@ghamtre](https://github.com/ghamtre)
 - Twitter: [@idgm5](https://twitter.com/idgm5)
 - Linkedin: [linkedin](https://www.linkedin.com/in/isaacmunguia/)
 
-👤 **Author2**
+👤 **Sebastian Rodriguez**
 
 - Github: [@lBuggie](https://github.com/lBuggie)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)
