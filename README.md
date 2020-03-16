@@ -25,9 +25,9 @@
 
 👤 **Sebastian Rodriguez**
 
-- Github: [@lBuggie](https://github.com/lBuggie)
+- Github: [@sebGilR](https://github.com/sebGilR)
 - Twitter: [@sebGilR](https://twitter.com/sebGilR)
-- Linkedin: [linkedin](https://www.linkedin.com/in/sebastian-gil-rodriguez-9b776073)
+- Linkedin: [sebastianGilRodriguez](https://www.linkedin.com/in/sebastianGilRodriguez)
 
 ## 🤝 Contributing
 
